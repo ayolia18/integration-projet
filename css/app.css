@@ -3,12 +3,18 @@ section .container{
     padding-left: 70px;
     padding-right: 70px;
     padding-bottom: 50px;
+
 }
 .navbar{
     background-color: white;
 }
 .navbar .bar-top{
     border-bottom:  1px solid #9d9d9d;;
+}
+@media (max-width: 770px){
+    .bar-top {
+        display: none;
+    }
 }
 .bar-top ul li{
     border-left:  1px solid #9d9d9d;
@@ -32,6 +38,14 @@ section .container{
 
 .reseau-social{
     float: right;
+}
+
+.bar-bot{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.navbar-header{
+    margin-top: -5px;
 }
 
 section .container h2{
@@ -86,7 +100,11 @@ text-align: center;
     padding-right: 60px;
     padding-bottom: 60px;
 }
-
+.process-element img{
+    position: absolute;
+    left: 5px;
+    top: 70px;
+}
 .somethings-great{
     background-color: #3c3c3c;
 }
@@ -102,11 +120,12 @@ text-align: center;
 }
 
 footer{
-    background-color: rgb(38,43,47);
+    background-color: #262b2f;
 }
-footer .container{
+footer .big-footer{
     color: white;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 footer img{
@@ -139,6 +158,19 @@ footer .btn{
     margin-left: -200px;
 }
 
+.tag{
+    color: white;
+    background-color: #1d2124;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+}
+
+.little-footer{
+    background-color: #21262a;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 
 
 

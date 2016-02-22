@@ -4,15 +4,12 @@
 
     $('.loopCarousel').owlCarousel({
         center: true,
-        items:6,
+        items:3,
         loop:true,
         margin:20,
         autoplay:true,
         autoplayTimeout:800,
         responsive:{
-            0:{
-                items:1
-            },
             768:{
                 items:3
             },
