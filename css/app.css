@@ -399,6 +399,24 @@ footer .btn{
     background-color: #4aa2d1;
     color: white;
 }
-.btn{
-    padding: 12px 18px;
+
+
+/*Contact*/
+
+.form-inline .input-group>.form-control{
+    width: 250%;
+    border-radius: 0px;
+}
+.form-inline  .input-group>.form-select{
+    width: 277%;
+    border-radius: 0px;
+}
+.container .col-md-6{
+    margin-top: 20px;
+}
+
+.form-inline .col-md-12 textarea{
+    margin-top: 20px;
+    width: 98%;
+    border-radius: 0px;
 }
