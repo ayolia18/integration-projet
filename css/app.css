@@ -9,7 +9,7 @@ section .container{
     background-color: white;
 }
 .navbar .bar-top{
-    border-bottom:  1px solid #9d9d9d;;
+    border-bottom:  1px solid #e1e1e1;;
 }
 @media (max-width: 770px){
     .bar-top {
@@ -17,12 +17,12 @@ section .container{
     }
 }
 .bar-top ul li{
-    border-left:  1px solid #9d9d9d;
+    border-left:  1px solid #e1e1e1;
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-size: 15px;
 }
 .bar-top ul:first-child{
@@ -33,11 +33,14 @@ section .container{
     list-style: none;
     margin: 0px;
     padding: 0px;
-    border-right: 1px solid #9d9d9d;
+    border-right: 1px solid #e1e1e1;
 }
 
 .reseau-social{
     float: right;
+}
+.reseau-social a{
+    color: black;
 }
 
 .bar-bot{
