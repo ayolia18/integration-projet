@@ -423,3 +423,11 @@ footer .btn{
     width: 98%;
     border-radius: 0px;
 }
+
+/*404*/
+.error404 h1{
+    height:1000px;
+    line-height:1000px;
+
+}
+
