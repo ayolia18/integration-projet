@@ -5,6 +5,10 @@ section .container{
     padding-bottom: 50px;
 
 }
+@font-face {
+    src:url('EncodeSansCondensed-Thin.ttf');
+    font-family: "Encode Sans Condensed Thin";
+}
 .navbar{
     background-color: white;
 }
@@ -173,6 +177,18 @@ footer .btn{
     color: white;
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+
+.we-are-here i{
+    position: absolute;
+    left: 0;
+    color: #e8554e;
+}
+
+.we-are-here .col-md-4{
+ padding-left: 60px;
+    margin-bottom: 20px;
 }
 
 
