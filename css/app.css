@@ -442,8 +442,20 @@ footer .btn{
 
 /*404*/
 .error404 h1{
-    height:1000px;
-    line-height:1000px;
-
+    margin-top: 220px;
+    font-size: 100px;
 }
 
+.error404 p{
+    color: white;
+}
+
+footer.error404{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:20px;
+    padding-left: 20px ;
+    height:80px;
+    font-size: 11px;
+}
