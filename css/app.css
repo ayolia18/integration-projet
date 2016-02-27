@@ -427,16 +427,16 @@ footer .btn{
     border-radius: 0px;
 }
 .form-inline  .input-group>.form-select{
-    width: 277%;
+    width: 286%;
     border-radius: 0px;
 }
-.container .col-md-6{
-    margin-top: 20px;
+.container .form-inline .col-md-6{
+margin-top: 15px;
 }
 
 .form-inline .col-md-12 textarea{
     margin-top: 20px;
-    width: 98%;
+    width: 100%;
     border-radius: 0px;
 }
 
